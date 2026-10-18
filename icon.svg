@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-labelledby="title">
+  <title id="title">Approval Focus Enter</title>
+  <rect x="6" y="21" width="52" height="27" rx="8" fill="#EEF2FF" stroke="#4D6BFE" stroke-width="3"/>
+  <path d="M22 30v7.5h13" fill="none" stroke="#4D6BFE" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M31 33.5 35 37.5 31 41.5" fill="none" stroke="#4D6BFE" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="47" cy="17" r="9.5" fill="#4D6BFE"/>
+  <path d="M42.5 17.2 45.6 20.3 51.5 14" fill="none" stroke="#FFFFFF" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

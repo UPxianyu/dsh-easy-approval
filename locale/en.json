@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Approval Focus Enter",
+    "description": "Two-step Enter for approvals: the first press selects the pending panel, the second allows it, so Enter works before you click the panel."
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "name": "dsh-easy-approval",
+  "version": "0.1.0",
+  "description": "Two-step Enter for DeepSeek Harness approvals: the first Enter selects the pending approval panel, the second allows it · 两段式审批 Enter：第一下选中面板，第二下通过",
+  "type": "module",
+  "license": "MIT",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "README.en.md",
+    "SECURITY.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "cordis",
+    "approval",
+    "keyboard",
+    "accessibility"
+  ],
+  "scripts": {
+    "check": "node --check client.js && node --check index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UPxianyu/dsh-easy-approval.git"
+  },
+  "homepage": "https://github.com/UPxianyu/dsh-easy-approval#readme",
+  "bugs": {
+    "url": "https://github.com/UPxianyu/dsh-easy-approval/issues"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    },
+    "engines": {
+      "dsh": ">=0.2.1-rc.2 <0.3.0-0"
+    }
+  }
+}
